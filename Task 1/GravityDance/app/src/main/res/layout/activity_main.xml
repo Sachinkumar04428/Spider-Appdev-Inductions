@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="horizontal"
+    android:onClick="changeGravity"
+    android:background="@drawable/thanos4">
+
+    <ImageView
+        android:id="@+id/stone1"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_height="100dp"
+        android:src="@drawable/time_stone"/>
+
+    <ImageView
+        android:id="@+id/stone2"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_height="100dp"
+        android:src="@drawable/power_stone"/>
+
+    <ImageView
+        android:id="@+id/stone3"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_height="100dp"
+        android:src="@drawable/mind_stone"/>
+
+    <ImageView
+        android:id="@+id/stone4"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_height="100dp"
+        android:src="@drawable/reality_stone"/>
+
+    <ImageView
+        android:id="@+id/stone5"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_height="100dp"
+        android:src="@drawable/soul_stone"/>
+
+    <ImageView
+        android:id="@+id/stone6"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_height="100dp"
+        android:src="@drawable/space_stone"/>
+
+</LinearLayout>
